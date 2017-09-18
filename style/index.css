@@ -1,27 +1,27 @@
 .header{
 	background-image: linear-gradient(90deg,#0af,#0085ff);
-	height: 60px; 
+	height: 3.4rem; 
 	width: 100%;
-	
 }
 
 .header-left{
-	width:60px;
-	height: 60px;
+	width: 3.4rem;
+	height: 3.4rem;
 }
 
 .header-icon{
-	width:24px;
-	height: 24px;
+	width:1.2rem;
+	height: 1.2rem;
 }
 
 .header-center{
 	position: absolute;
 	left: 50%;
+	-webkit-transform:translateX(-50%);
 	transform: translateX(-50%);
 	color:#fff;
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .classification{
@@ -46,6 +46,8 @@
 .cf-title{
 	display: block;
 	text-align: center;
+	font-size: 0.90rem;
+	color: #666;
 }
 
 .list{
